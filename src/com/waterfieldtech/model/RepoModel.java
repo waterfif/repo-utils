@@ -103,7 +103,7 @@ public class RepoModel {
 
 	@Override
 	public String toString() {
-		return String.format("[group=%s, id=%s, version=%s, licenses=%s], [developers=%s], [path=%s]", group, id, version, developers, (licenses!=null)? licenses : "", path);
+		return String.format("[group=%s, id=%s, version=%s, licenses=%s developers=%s], [path=%s]", group, id, version, (licenses!=null)? licenses : "", developers, path);
 	}
 }
 	
