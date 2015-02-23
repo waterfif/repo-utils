@@ -1,4 +1,4 @@
-package com.waterfield;
+package com.waterfieldtech;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -22,14 +22,14 @@ import org.apache.commons.cli.OptionBuilder;
 import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 
-import com.waterfield.model.RepoModel;
-import com.waterfield.model.reader.IModelReader;
-import com.waterfield.model.reader.IVYReader;
-import com.waterfield.model.reader.ModelDescriptorException;
-import com.waterfield.model.reader.POMReader;
-import com.waterfield.visitor.CopyDirVisitor;
-import com.waterfield.visitor.DeleteDirVisitor;
-import com.waterfield.visitor.FileVisitor;
+import com.waterfieldtech.model.RepoModel;
+import com.waterfieldtech.model.reader.IModelReader;
+import com.waterfieldtech.model.reader.IVYReader;
+import com.waterfieldtech.model.reader.ModelDescriptorException;
+import com.waterfieldtech.model.reader.POMReader;
+import com.waterfieldtech.visitor.CopyDirVisitor;
+import com.waterfieldtech.visitor.DeleteDirVisitor;
+import com.waterfieldtech.visitor.FileVisitor;
 
 /** 
  * Create a report that reads POM and IVY files from 1 or more storage directories.  

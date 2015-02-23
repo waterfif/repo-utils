@@ -1,8 +1,8 @@
-package com.waterfield.model.reader;
+package com.waterfieldtech.model.reader;
 
 import java.nio.file.Path;
 
-import com.waterfield.model.RepoModel;
+import com.waterfieldtech.model.RepoModel;
 
 public interface IModelReader {
 	

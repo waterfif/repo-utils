@@ -1,4 +1,4 @@
-package com.waterfield.model.reader;
+package com.waterfieldtech.model.reader;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ import org.apache.maven.model.Model;
 import org.apache.maven.model.io.xpp3.MavenXpp3Reader;
 import org.codehaus.plexus.util.xml.pull.XmlPullParserException;
 
-import com.waterfield.model.RepoModel;
+import com.waterfieldtech.model.RepoModel;
 
 public class POMReader implements IModelReader {
 	

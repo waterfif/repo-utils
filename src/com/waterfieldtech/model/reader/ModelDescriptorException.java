@@ -1,4 +1,4 @@
-package com.waterfield.model.reader;
+package com.waterfieldtech.model.reader;
 
 public class ModelDescriptorException extends Exception {
 	

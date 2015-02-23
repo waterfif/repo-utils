@@ -1,4 +1,4 @@
-package com.waterfield.model;
+package com.waterfieldtech.model;
 
 import java.nio.file.Path;
 

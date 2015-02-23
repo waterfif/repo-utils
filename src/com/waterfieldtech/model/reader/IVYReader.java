@@ -1,4 +1,4 @@
-package com.waterfield.model.reader;
+package com.waterfieldtech.model.reader;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -13,7 +13,7 @@ import org.apache.ivy.core.module.id.ModuleRevisionId;
 import org.apache.ivy.core.settings.IvySettings;
 import org.apache.ivy.plugins.parser.xml.XmlModuleDescriptorParser;
 
-import com.waterfield.model.RepoModel;
+import com.waterfieldtech.model.RepoModel;
 
 public class IVYReader implements IModelReader {
 	
