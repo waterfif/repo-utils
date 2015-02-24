@@ -12,6 +12,8 @@ public class RepoModel {
 	
 	private String version;
 	
+	private String url;
+	
 	private String licenses;
 	
 	private String developers;
@@ -38,6 +40,14 @@ public class RepoModel {
 
 	public void setVersion(String version) {
 		this.version = version;
+	}
+
+	public String getUrl() {
+		return url;
+	}
+
+	public void setUrl(String url) {
+		this.url = url;
 	}
 
 	public String getLicenses() {
@@ -103,7 +113,7 @@ public class RepoModel {
 
 	@Override
 	public String toString() {
-		return String.format("[group=%s, id=%s, version=%s, licenses=%s developers=%s], [path=%s]", group, id, version, (licenses!=null)? licenses : "", developers, path);
+		return String.format("[group=%s, id=%s, version=%s, licenses=%s, url=%s, developers=%s], [path=%s]", group, id, version, (licenses!=null)? licenses : "", url, developers, path);
 	}
 }
 	

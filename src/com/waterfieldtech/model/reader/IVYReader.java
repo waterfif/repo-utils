@@ -38,6 +38,7 @@ public class IVYReader implements IModelReader {
 			rm.setGroup(mrevid.getOrganisation());
 			rm.setId(mrevid.getName());
 			rm.setVersion(mrevid.getRevision());
+			rm.setUrl(desc.getHomePage());
 			
 			org.apache.ivy.core.module.descriptor.License[] lics = desc.getLicenses();
 			

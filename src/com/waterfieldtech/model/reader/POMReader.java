@@ -35,6 +35,7 @@ public class POMReader implements IModelReader {
 			rm.setVersion(m.getVersion());
 			rm.setLicenses((m.getLicenses() != null)? licences.toString() : null);
 			rm.setDevelopers(getDevelopers(m));
+			rm.setUrl(m.getUrl());
 			
 		} catch (FileNotFoundException e) {
 			String error = "Could not find " + pathToModelDescriptor;
